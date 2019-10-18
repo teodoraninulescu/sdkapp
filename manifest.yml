@@ -2,6 +2,8 @@
 applications:
 
 - name: sdkapp
+  routes:
+    - route: sdkapp-i344684trial.cfapps.eu10.hana.ondemand.com
   memory: 1024M
   timeout: 300
   random-route: true

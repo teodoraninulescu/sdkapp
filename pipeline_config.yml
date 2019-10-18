@@ -38,11 +38,11 @@ stages:
 #    nonErpDestinations:
 #      - 'myCustomDestination'
 
-#  productionDeployment:
-#    cfTargets:
-#      - org: 'myOrg'
-#        space: 'mySpace'
-#        apiEndpoint: 'https://'
-#        appName: 'myAppName'
-#        manifest: 'manifest.yml'
-#        credentialsId: 'myDeploymentCredentialsId'
+productionDeployment:
+   cfTargets:
+      - org: 'I047464trial_trial'
+        space: 'dev'
+        apiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
+        appName: 'sdkapp'
+        manifest: 'manifest.yml'
+        credentialsId: 'CredentialsId-SCP'
